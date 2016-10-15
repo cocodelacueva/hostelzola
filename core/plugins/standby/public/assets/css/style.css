@@ -1,0 +1,167 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+margin: 0;
+padding: 0;
+border:none;
+outline:none;
+font-size: 14px;
+    font-family: Verdana, sans-serif;
+vertical-align: baseline;
+text-decoration:none;
+}
+    
+    html, body {
+        height: 100%;
+        width: 100%;
+        position: relative;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    
+    .main-site {
+        height: 100%;
+    }
+    
+    .container {
+        padding: 10% 10%;
+        max-width: 768px;
+        
+    }
+    
+    .sr-only {
+        display: none;
+    }
+    
+    .contenido {
+        padding: 5%;
+        background: rgba(0,0,0,0.7);
+        color: #fff;
+    }
+    
+    .contenido header h1 {
+        font-size: 24px;
+        margin-bottom: 30px;
+        text-transform: uppercase;
+        font-weight: normal;
+    }
+    
+    .contenido header h1 strong {
+        font-size: 24px;
+        font-weight: bold;
+    }
+    
+    .contenido section p {
+        line-height: 18px;
+        margin: 10px 0;
+    }
+    
+    .data-contact {
+        margin: 20px 0;
+    }
+
+    .contenido section ul {
+        margin: 10px 0;
+    }
+
+    .contenido section ul li {
+        list-style: none;
+        margin: 5px 0;
+    }
+    
+    .contenido footer h4 {
+        text-align: right;
+        font-weight: normal;
+        font-size: 10px;
+        color: #999;
+    }
+    
+    .contenido footer a {
+        text-decoration: none;
+        color: #fff;
+        cursor: pointer;
+        font-size: 10px;
+        font-style: italic;
+        color: #999;
+    }
+    
+    .main-footer {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        background: #333;
+        color: #fff;
+    }
+    
+    .main-footer div {
+        float: right;
+        background: #333;
+        color: #fff;
+    }
+    
+    .main-footer h2 {
+        float: left;
+        margin:  10px 20px;
+        text-transform: uppercase;
+    }
+
+    .contacts-types {
+        float: right;   
+    }
+    
+    .contacts-types li {
+        float: left;
+        list-style: none;
+        
+    }
+    
+    .contacts-types li a {
+        display: block;
+        width: 25px;
+        height: 25px;
+        margin: 5px;
+    }
+    
+    .contacts-types li a:hover {
+        opacity: 0.5;
+    }
+    
+    .icon-contact {
+        background: url(../../assets/images/sprite-template-xs.png) no-repeat;
+    }
+    .icon-contact-email {
+        background-position: 2px 2px;
+    }
+    .icon-contact-telephone {
+        background-position: -34px 2px;
+    }
+    .icon-contact-skype {
+        background-position: -68px 2px;
+    }
+    .icon-contact-facebook {
+        background-position: -102px 2px;
+    }
+    .icon-contact-twitter {
+        background-position: -137px 2px;
+    }
+    .icon-contact-googleplus {
+        background-position: -173px 2px;
+    }
+    .icon-contact-linkedin {
+        background-position: -208px 2px;
+    }
+    .icon-contact-github {
+        background-position: -243px 2px;
+    }
+    .icon-contact-pinterest {
+        background-position: -278px 2px;
+    }
+    .icon-contact-behance {
+        background-position: -310px 2px;
+    }
+    .icon-contact-snapchat {
+        background-position: -345px 2px;
+    }
+    .icon-contact-instagram {
+        background-position: -379px 2px;
+    }

@@ -1,0 +1,17 @@
+/*
+ Theme Name:     Divi Child Theme
+ Theme URI:      http://www.elegantthemes.com/gallery/divi/
+ Description:    Divi Child Theme
+ Author:         LaCueva.tv
+ Author URI:     http://lacueva.tv
+ Template:       Divi
+ Version:        1.0.0
+*/
+ 
+@import url("../Divi/style.css");
+@charset "utf-8";
+
+.mobile_menu_bar:before {
+	color:#fff;
+}
+

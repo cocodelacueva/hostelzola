@@ -1,0 +1,73 @@
+# Translation of Stable (latest release) in Spanish (Spain)
+# This file is distributed under the same license as the Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2016-01-24 19:42:04+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/1.0-alpha-1100\n"
+"Project-Id-Version: Stable (latest release)\n"
+
+#. Author URI of the plugin/theme
+msgid "https://iseulde.com"
+msgstr "https://iseulde.com"
+
+#. Author of the plugin/theme
+msgid "Ella Iseulde Van Dorpe"
+msgstr "Ella Iseulde Van Dorpe"
+
+#: rename-wp-login.php:226
+msgid "Network Settings"
+msgstr "Configuración de la Red"
+
+#: rename-wp-login.php:121
+msgid "Please upgrade to the latest version of WordPress to activate %s."
+msgstr "Por favor, actualice a la última versión de WordPress para activar %s."
+
+#: rename-wp-login.php:187
+msgid "Login url"
+msgstr "URL del Login"
+
+#: rename-wp-login.php:250 rename-wp-login.php:252
+msgid "Settings"
+msgstr "Ajustes"
+
+#: rename-wp-login.php:157
+msgid "Networkwide default"
+msgstr "Valor por defecto para toda la Red"
+
+#: rename-wp-login.php:154
+msgid "This option allows you to set a networkwide default, which can be overridden by individual sites. Simply go to to the site’s permalink settings to change the url."
+msgstr "Esta opción permite establecer un valor por defecto para toda la Red, el cual puede ser reemplazado para un sitio en particular. Simplemente vaya a los ajustes de los enlaces permanentes del sitio para cambiar la URL."
+
+#: rename-wp-login.php:226
+msgid "To set a networkwide default, go to %s."
+msgstr "Para establecer un valor por defecto para toda la Red vaya a %s."
+
+#: rename-wp-login.php:244
+msgid "Your login page is now here: %s. Bookmark this page!"
+msgstr "Tu página de inicio de sesión ahora está aquí: %s. Añade esta página a los favoritos!"
+
+#. #-#-#-#-#  tmp-rename-wp-login.pot (Rename wp-login.php 2.5.5)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: rename-wp-login.php:121 rename-wp-login.php:153 rename-wp-login.php:180
+msgid "Rename wp-login.php"
+msgstr "Renombra wp-login.php"
+
+#: rename-wp-login.php:269
+msgid "This feature is not enabled."
+msgstr "Esta función no está habilitada."
+
+#: rename-wp-login.php:297
+msgid "You must log in to access the admin area."
+msgstr "Debes iniciar sesión para acceder al área de administración."
+
+#. Plugin URI of the plugin/theme
+msgid "https://wordpress.org/plugins/rename-wp-login/"
+msgstr "https://es.wordpress.org/plugins/rename-wp-login/"
+
+#. Description of the plugin/theme
+msgid "Change wp-login.php to whatever you want."
+msgstr "Cambia wp-login.php a lo que quieras."

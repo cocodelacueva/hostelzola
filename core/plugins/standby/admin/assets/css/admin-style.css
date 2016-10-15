@@ -1,0 +1,54 @@
+.lqva-sb-wrap-inputs label {
+	width: 30%;
+    display: inline-block;
+}
+
+.lqva-sb-wrap-inputs input {
+	width: 60%;
+    display: inline-block;
+}
+
+.lqva-sb-wrap-img label {
+	font-size: 9px;
+	width: 30%;
+    display: inline-block;
+}
+
+.lqva-sb-wrap-img input {
+	width: 39%;
+	display: inline-block;
+}
+
+.lqva-sb-wrap-img input[type="button"] {
+	cursor: pointer;
+	width: 20%;
+	display: inline-block;
+	background: #0085ba;
+    border-color: #0073aa #006799 #006799;
+    -webkit-box-shadow: 0 1px 0 #006799;
+    box-shadow: 0 1px 0 #006799;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 0 -1px 1px #006799,1px 0 1px #006799,0 1px 1px #006799,-1px 0 1px #006799;
+    font-size: 13px;
+    line-height: 26px;
+    height: 28px;
+    margin: 0;
+    padding: 0 10px 1px;
+    cursor: pointer;
+    border-width: 1px;
+    border-style: solid;
+    -webkit-appearance: none;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    white-space: nowrap;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.lqva-sb-wrap-img input[type="button"]:hover {
+	background: #008ec2;
+    border-color: #006799;
+    color: #fff;
+}
