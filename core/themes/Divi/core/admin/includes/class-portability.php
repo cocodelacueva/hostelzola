@@ -23,7 +23,8 @@ final class ET_Core_Portability {
 	 * @param string $context Protability context previously registered.
 	 */
 	public function __construct( $context ) {
-		if ( ! current_user_can( 'switch_themes' ) ) {
+		// perform this check only in admin area to make sure class loaded properly in Frontend Builder
+		if ( ! current_user_can( 'switch_themes' ) && is_admin() ) {
 			return false;
 		}
 

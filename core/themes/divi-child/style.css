@@ -10,8 +10,323 @@
  
 @import url("../Divi/style.css");
 @charset "utf-8";
-
-.mobile_menu_bar:before {
-	color:#fff;
+/*sobrescribiendo el tema divi*/
+.et-social-twitter a.icon:before {
+	content: "\e09a";
 }
 
+#et-secondary-nav li {
+	margin-right: 30px;
+}
+
+.mobile_menu_bar:before {
+	color:#333;
+}
+
+#et-info-phone {
+	font-weight: 700;
+}
+
+
+/*estilos propios*/
+.sr-only {display: none}
+
+.lqva-h2-title {
+	text-transform: uppercase;
+	font-size: 72px;
+	font-weight: 200;
+	font-family: 'Lato', sans-serif;
+	margin: 40px auto;
+}
+
+.lqva-h3-title {
+	font-family: 'Lato', sans-serif;
+	text-transform: uppercase;
+	font-size: 24px;
+	font-weight: 400;
+	margin: 20px auto;
+}
+
+.lqva-a-sutil {
+	text-decoration: none;
+	font-family: 'Lato', sans-serif;
+	font-size: 12px;
+	font-weight: 300px;
+	font-style: italic;
+	color: #333;
+	cursor: pointer;
+}
+
+.lqva-a-footer {
+	text-decoration: none;
+	font-family: 'Lato', sans-serif;
+	font-size: 12px;
+	font-weight: 300px;
+	font-style: italic;
+	color: #fff;
+	cursor: pointer;
+}
+
+@media (max-width: 768px) {
+	.lqva-h2-title {
+		font-size: 66px;
+	}
+}
+
+@media (max-width: 480px) {
+	.lqva-h2-title {
+		font-size: 48px;
+	}
+}
+
+#post-36 {
+	position: relative;
+}
+
+/*header slider*/
+.et_pb_fullwidth_slider_0 {
+    min-height: 600px!important;
+}
+
+.et_pb_slide_0 {
+	min-height: 600px!important;	
+}
+
+@media (max-width: 1366px) {
+	.et_pb_fullwidth_slider_0 {
+    	min-height: 450px!important;
+	}
+
+	.et_pb_slide_0 {
+		min-height: 450px!important;	
+	}
+}
+
+@media (max-width: 980px) {
+	.et_pb_fullwidth_slider_0 {
+    	min-height: 350px!important;
+	}
+
+	.et_pb_slide_0 {
+		min-height: 350px!important;	
+	}	        
+}
+
+@media (max-width: 768px) {
+	.et_pb_fullwidth_slider_0 {
+    	min-height: 250px!important;
+	}
+
+	.et_pb_slide_0 {
+		min-height: 250px!important;	
+	}	        
+}
+
+
+
+/*section redes superior*/
+.lqva-social-sup-container {
+	background-color: #bfb091;
+}
+
+.lqva-social-sup {
+	width: 90%;
+    max-width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.lqva-social-sup li {
+	display: inline-block;
+	list-style: none;
+	margin: 0 40px;
+	width: 10%;
+	padding-top: 30px;
+    padding-bottom: 10px;
+}
+.lqva-social-sup li a {
+	text-decoration: none;
+	color: #333;
+	padding: 50px 35px;
+}
+
+/*iconos de adorno redes sup*/
+.lqva-icon-redes-sup {
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	background: url(http://zolahostel.com/contenido/sprite.png);
+	vertical-align: middle;
+}
+
+.lqva-sup-trip {
+	vertical-align: middle;
+}
+.lqva-icon-redes-sup-tripadvisor {
+	background-position: -45px 18px;
+}
+.lqva-icon-redes-sup-facebook {
+	background-position: -45px 18px;
+}
+.lqva-icon-redes-sup-instagram {
+	background-position: -117px 18px;
+}
+.lqva-icon-redes-sup-plus {
+	background-position: -206px 18px;
+}
+.lqva-icon-redes-sup-whatsapp {
+	background-position: -276px 18px;
+}
+
+/*iconos de adorno contacto*/
+.lqva-icon-contact, .lqva-icon-footer {
+	display: inline-block;
+	width: 25px;
+	height: 20px;
+	background: url(http://zolahostel.com/contenido/sprite.png);
+	vertical-align: baseline;
+}
+
+.lqva-icon-contact-tel {
+	background-position: -49px -95px;
+}
+.lqva-icon-contact-email {
+	background-position: -49px -118px;
+}
+.lqva-icon-contact-whatsapp {
+	background-position: -49px -141px;
+}
+.lqva-icon-footer-tel {
+	background-position: -88px -98px;
+}
+.lqva-icon-footer-whatsapp {
+	background-position: -88px -119px;
+}
+
+
+
+/*estilo modulo de reservas de arriba*/
+.lqva-booking-form-container {
+	position: absolute;
+	top: -550px;
+	width: 90%;
+	left: 20%;
+	background-color: rgba(0,0,0,0.5);
+    display: block;
+    max-width: 1080px;
+    padding: 20px 30px;
+    text-align: center;
+	}
+
+.lqva-booking-form-container input {
+	margin: 0 10px;
+    height: 30px;
+    border: none;
+    padding: 0 9px;
+}
+
+.lqva-booking-form-container input[type=number] {
+	width: 100px;
+}
+
+.lqva-booking-form-container button {
+	background-color: #9fb0b8;
+    border: none;
+    height: 30px;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 8px 20px;
+    cursor: pointer;
+}
+
+.lqva-booking-form-container button:hover {
+	opacity: 0.8;
+}
+
+/*estilo modulo de reservas de abajo*/
+.lqva-booking-form-container-down {
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #ddbab4;
+	padding: 30px 40px;
+	font-size: 16px;
+}
+
+.lqva-booking-form-container-full {
+	width: 100%;
+	padding: 30px 0px;
+	background-color: transparent;
+}
+
+.lqva-booking-form-container-down input {
+	display: block;
+	width: 100%;
+	margin: 10px 0;
+    height: 50px;
+    border: none;
+    padding: 0 9px;
+}
+
+.lqva-booking-form-container-down button {
+	background-color: #372b37;
+    border: none;
+    height: 50px;
+    width: 100%;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 8px 20px;
+    cursor: ointer;
+}
+
+.lqva-booking-form-container-down button:hover {
+	opacity: 0.8;
+}
+
+
+/*formulario suscripcion*/
+.lqva-form-subscribite input {
+	display: block;
+	width: 100%;
+	margin: 10px auto;
+	height: 40px;
+	border: none;
+	background-color: #fff;
+	padding-left: 10px;
+}
+.lqva-form-subscribite input[type=submit] {
+	background-color: #ddbab4;	
+	color: #333;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-family: 'Lato', sans-serif;
+}
+
+.subs-btn {
+	background-color: #ddbab4;	
+	color: #333;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-family: 'Lato', sans-serif;
+	border: none;
+}
+
+
+/*media queries */
+@media (max-width: 1366px) {
+	.lqva-booking-form-container {
+		top:-400px;
+		left: 10%;
+	}
+}
+
+@media (max-width: 980px) {
+	.lqva-booking-form-container {
+		position: static;
+		display: none;/*hacerlo visible luego*/
+	}
+
+	.lqva-social-sup-container {
+		display: none;
+	}
+}
